@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7935ca71b4d7be743b8754766760f8c9, type: 3}
+  m_Name: Enemys
+  m_EditorClassIdentifier: 
+  enemies:
+  - hp: 100
+    enemyLifeSprite: {fileID: 21300000, guid: e21831313b52ae44082ba6318ae7cad1, type: 3}
+    enemyDeadSprite: {fileID: 21300000, guid: ccd8b58b585ece24a89db5e3244dc63d, type: 3}
+    damage: 1
+    attackSpeed: 1

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd4ed9e0f6b35a245a59f796d47ce9a9, type: 3}
+  m_Name: Characters
+  m_EditorClassIdentifier: 
+  characters:
+  - characterName: Astra Nightshade
+    characterSprite: {fileID: 21300000, guid: 8f0a26d818e38124d9d4f42bfdc74931, type: 3}
+    characterAttack: 50
+    hp: 100
+    defance: 10
+    refreshRate: 20
+  - characterName: Kairos Stormrider
+    characterSprite: {fileID: 21300000, guid: be000f623d01d5e43bef8b2e10c67d20, type: 3}
+    characterAttack: 20
+    hp: 100
+    defance: 10
+    refreshRate: 20
+  - characterName: Luna Shadowblade
+    characterSprite: {fileID: 21300000, guid: c20821403e1721c488289fb33f8df3ac, type: 3}
+    characterAttack: 1
+    hp: 100
+    defance: 10
+    refreshRate: 20
+  - characterName: Vexx Darkfire
+    characterSprite: {fileID: 21300000, guid: 7eb0cb2aa36d0f2479778dce09ec0194, type: 3}
+    characterAttack: 30
+    hp: 100
+    defance: 10
+    refreshRate: 20
